@@ -19,7 +19,7 @@
 		8EF723CA1CB3603A00ACBDD9 /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF723C91CB3603A00ACBDD9 /* FocusViewController.m */; };
 		8EF723D11CB3863700ACBDD9 /* FocusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF723CD1CB3863700ACBDD9 /* FocusCell.m */; };
 		8EF723D21CB3863700ACBDD9 /* FocusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF723CE1CB3863700ACBDD9 /* FocusCell.xib */; };
-		8EF723D31CB3863700ACBDD9 /* FocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF723D01CB3863700ACBDD9 /* FocusView.m */; };
+		8EF723D31CB3863700ACBDD9 /* HJFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF723D01CB3863700ACBDD9 /* HJFocusView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,8 @@
 		8EF723CC1CB3863700ACBDD9 /* FocusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusCell.h; sourceTree = "<group>"; };
 		8EF723CD1CB3863700ACBDD9 /* FocusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusCell.m; sourceTree = "<group>"; };
 		8EF723CE1CB3863700ACBDD9 /* FocusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FocusCell.xib; sourceTree = "<group>"; };
-		8EF723CF1CB3863700ACBDD9 /* FocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusView.h; sourceTree = "<group>"; };
-		8EF723D01CB3863700ACBDD9 /* FocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusView.m; sourceTree = "<group>"; };
+		8EF723CF1CB3863700ACBDD9 /* HJFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFocusView.h; sourceTree = "<group>"; };
+		8EF723D01CB3863700ACBDD9 /* HJFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFocusView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +163,8 @@
 				8EF723CC1CB3863700ACBDD9 /* FocusCell.h */,
 				8EF723CD1CB3863700ACBDD9 /* FocusCell.m */,
 				8EF723CE1CB3863700ACBDD9 /* FocusCell.xib */,
-				8EF723CF1CB3863700ACBDD9 /* FocusView.h */,
-				8EF723D01CB3863700ACBDD9 /* FocusView.m */,
+				8EF723CF1CB3863700ACBDD9 /* HJFocusView.h */,
+				8EF723D01CB3863700ACBDD9 /* HJFocusView.m */,
 			);
 			path = Focus;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 				8EF723891CB34B3400ACBDD9 /* AppDelegate.m in Sources */,
 				8EF723921CB34B3400ACBDD9 /* FocusHeaderDemo.xcdatamodeld in Sources */,
 				8EF723861CB34B3400ACBDD9 /* main.m in Sources */,
-				8EF723D31CB3863700ACBDD9 /* FocusView.m in Sources */,
+				8EF723D31CB3863700ACBDD9 /* HJFocusView.m in Sources */,
 				8EF723CA1CB3603A00ACBDD9 /* FocusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

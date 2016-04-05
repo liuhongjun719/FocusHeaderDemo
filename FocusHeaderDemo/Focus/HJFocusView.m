@@ -6,16 +6,16 @@
 //  Copyright © 2016年 vizz. All rights reserved.
 //
 
-#import "FocusView.h"
+#import "HJFocusView.h"
 #import "FocusCell.h"
 
 
 static NSString *const FocusCellIdentifier = @"FocusCellIdentifier";
 
-@interface FocusView ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface HJFocusView ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end
-@implementation FocusView
+@implementation HJFocusView
 
 
 - (instancetype)initWithFrame:(CGRect)frame

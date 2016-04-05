@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FocusView : UIView
+@interface HJFocusView : UIView
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *imageNames;
 

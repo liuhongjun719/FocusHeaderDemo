@@ -7,10 +7,10 @@
 //
 
 #import "FocusViewController.h"
-#import "FocusView.h"
+#import "HJFocusView.h"
 
 @interface FocusViewController ()
-@property (nonatomic, strong) FocusView *focusView;
+@property (nonatomic, strong) HJFocusView *focusView;
 
 @end
 
@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self setEdgesForExtendedLayout:UIRectEdgeNone];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.focusView = [[FocusView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 200)];
+    self.focusView = [[HJFocusView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 200)];
     [self.view addSubview:self.focusView];
     
     //进入后台时取消定时；进入前台时重新添加定时，并从进入后台前的位置继续滚动
