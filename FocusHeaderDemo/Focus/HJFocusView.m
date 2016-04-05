@@ -29,7 +29,7 @@ static NSString *const FocusCellIdentifier = @"FocusCellIdentifier";
         self.collectionView.dataSource = self;
         self.collectionView.showsHorizontalScrollIndicator = NO;
         self.collectionView.pagingEnabled = YES;
-        [self.collectionView registerNib:[UINib nibWithNibName:@"FocusCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:FocusCellIdentifier];
+        [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([FocusCell class]) bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:FocusCellIdentifier];
         [self addSubview:self.pageControl];
         [self setContentOffset];
         
